@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>CanvasTiles</title>
+  </head>
+
+  <body>
+    <h2>CanvasTiles</h2>
+    <div class="game-details">
+      <div class="new-game-container">
+        <span>New Game</span>
+        <label for="slider" id="sliderVal">4</label>
+        <input type="range" id="slider" value="4" min="4" max="99" />
+        <button class="new-game-button" />
+        <button class="new-game-button" />
+      </div>
+      <div class="score-container">
+        Score:
+        <span class="score">0</span></br>
+        High Score:
+        <span class="highscore">0</span>
+      </div>
+    </div>
+
+    <div class="board">
+      <canvas class="background"></canvas>
+      <canvas class="tiles">Your browser does not support the canvas element.</canvas>
+    </div>
+
+    <div class="footer">
+      <p>
+        <b>HOW TO PLAY:</b> Use the arrow keys or WASD to move the tiles around and get them to merge!
+      </p>
+      <p>
+        <a href="http://www.github.com/bunnrf/">Github</a>
+      </p>
+      <p>
+        Inspired by 2048, a game created by <a href="http://www.gabrielecirulli.com">Gabirele Cirulli</a>.
+      </p>
+    </div>
+
+    <script type="application/javascript" src="lib/bundle.js"></script>
+    <link href="./application.css" media="all" rel="stylesheet" />
+  </body>
+</html>
