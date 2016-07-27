@@ -1,23 +1,29 @@
 <html>
   <head>
-    <title>CanvasTiles</title>
+    <title>Canvas Tiles</title>
   </head>
 
   <body>
-    <h2>CanvasTiles</h2>
     <div class="game-details">
+      <div class="left">
+        <h2>CANVAS TILES</h2>
+        <div class="score-container">
+          <div>
+            <span>SCORE</span>
+            <span class="score">0</span>
+          </div>
+          <div>
+            <span>BEST</span>
+            <span class="score highscore">0</span>
+          </div>
+        </div>
+      </div>
       <div class="new-game-container">
-        <span>New Game</span>
+        <span>NEW GAME</span>
         <label for="slider" id="sliderVal">4</label>
         <input type="range" id="slider" value="4" min="4" max="16" />
-        <button class="new-game-button" />
-        <button class="new-game-button" />
-      </div>
-      <div class="score-container">
-        Score:
-        <span class="score">0</span></br>
-        High Score:
-        <span class="highscore">0</span>
+        <div class="new-game-button"></div>
+        <div class="new-game-button"></div>
       </div>
     </div>
 
@@ -29,6 +35,8 @@
     <div class="footer">
       <p>
         <b>HOW TO PLAY:</b> Use the arrow keys or WASD to move the tiles around and get them to merge!
+        <br>
+        Try to beat the dev's score of 103968!
       </p>
       <p>
         <a href="http://www.github.com/bunnrf/">Github</a>
