@@ -1,5 +1,5 @@
 # CanvasTiles
-CanvasTiles is an instance of the 2048 tile-sliding game written in JS using canvas elements to draw.
+CanvasTiles is an instance of the 2048 tile-sliding game written in JavaScript. The goal is to slide tiles around the board and to get them to merge to earn points.
 
 [Live link][live]
 [live]: https://bunnrf.github.io/CanvasTiles
